@@ -1,0 +1,10 @@
+2026-11-21 08:47:24,538 - INFO - [Sistema.py:370] - Iniciando procesamiento de la reserva ID: R001
+2026-11-21 08:47:24,538 - CRITICAL - [Sistema.py:395] - Error crítico inesperado en reserva R001: ReservaSala.calcular_costo() got an unexpected keyword argument 'personas'
+2026-11-21 08:47:24,538 - INFO - [Sistema.py:410] - Finalizado ciclo de procesamiento para reserva R001. Estado final: Fallida
+2026-11-21 08:47:24,538 - INFO - [Sistema.py:370] - Iniciando procesamiento de la reserva ID: R002
+2026-11-21 08:47:24,538 - ERROR - [Sistema.py:384] - Error operativo al procesar reserva R002: La cantidad de asistentes (15) supera la capacidad máxima de la sala (10).
+2026-11-21 08:47:24,541 - INFO - [Sistema.py:410] - Finalizado ciclo de procesamiento para reserva R002. Estado final: Fallida
+2026-11-21 08:47:24,541 - INFO - [Sistema.py:370] - Iniciando procesamiento de la reserva ID: R003
+2026-11-21 08:47:24,541 - INFO - [Sistema.py:404] - Reserva R003 confirmada exitosamente. Costo calculado: $514.08
+2026-11-21 08:47:24,543 - INFO - [Sistema.py:410] - Finalizado ciclo de procesamiento para reserva R003. Estado final: Confirmada
+2026-11-21 08:47:24,543 - INFO - [Sistema.py:422] - Reserva R001 cancelada correctamente.
